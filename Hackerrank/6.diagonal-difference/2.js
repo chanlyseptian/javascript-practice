@@ -24,7 +24,7 @@ function diagonalDifference(arr) {
     }
     let diff = Math.abs(leftDiag - rightDiag);
 
-    return diff;
+    return leftDiag;
     
 }
 
